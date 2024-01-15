@@ -1,3 +1,26 @@
-.venv/
-__pycache__/
+# Keep rules
+!gitkeep.txt
+
+# Django
 db.sqlite3
+*.log
+*.pyc
+__pycache__/
+
+# User media
+media/
+
+# Environment
+.env
+.venv/
+
+# VS Code files
+*.suo
+*.pyproj
+*.pyproj.User
+*.history
+.vs/
+obj/
+
+# Heroku
+staticfiles/
